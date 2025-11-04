@@ -7,11 +7,9 @@ public class NumWords {
         // אני מפרק את המספר לגורמים
         int ones = num % 10;
         int tens = (num / 10) % 10;
-        int hundreds = (num / 100) % 10;
-        int thousand = (num / 1000) % 10;
+        int hundreds = (num / 100);
 
-        System.out.println(thousand + " thousand," + 
-                           hundreds + " hundreds, " +
+        System.out.println(hundreds + " hundreds, " +
                            tens + " tens, and " +
                            ones + " ones.");
 	}
